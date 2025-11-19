@@ -35,8 +35,8 @@ This project serves as an example implementation of [Dubai Culture's Public Libr
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd dubai-libraries-showcase
+git clone https://github.com/moa-kh-dubaiculture/dubai-culture-libraries-artifacts.git
+cd dubai-culture-libraries-artifacts
 
 # Install dependencies
 npm install
