@@ -80,6 +80,50 @@ The register provides:
 - Operating hours
 - Contact information
 
+## 🔧 Using Components in Your Project
+
+This repository is designed to help developers integrate Dubai library information into their own applications. You can reuse components from this project:
+
+### Reusing the Interactive Map
+
+The map component (`src/components/LibraryMap.tsx`) uses Leaflet and OpenStreetMap - no API keys required.
+
+**To integrate into your project:**
+1. Copy `src/components/LibraryMap.tsx`
+2. Copy `src/data/libraries.ts` and `src/types/library.ts`
+3. Install dependencies: `npm install leaflet react-leaflet @types/leaflet`
+4. Import and use: `<LibraryMap />`
+
+### Reusing the Card View
+
+The glassmorphic cards component (`src/components/LibraryGlassCards.tsx`) provides a beautiful visual display.
+
+**To integrate into your project:**
+1. Copy `src/components/LibraryGlassCards.tsx`
+2. Copy `src/data/libraries.ts` and `src/types/library.ts`
+3. Install dependencies: `npm install lucide-react`
+4. Import and use: `<LibraryGlassCards />`
+
+### Using Just the Data
+
+If you only need the library data without UI components:
+
+```typescript
+import { libraries } from './data/libraries';
+
+// Access all library information
+libraries.forEach(library => {
+  console.log(library.title, library.lat, library.lng);
+});
+```
+
+### Customizing for Your Needs
+
+- **Styling**: All components use Tailwind CSS - customize colors and styles easily
+- **Data**: Update `src/data/libraries.ts` with additional fields from the register
+- **Features**: Add filtering, search, or booking integration as needed
+
+**Note:** This is open source (MIT License) - feel free to modify, extend, and use in commercial projects. We encourage innovation with government open data!
 
 ## 📄 License
 
