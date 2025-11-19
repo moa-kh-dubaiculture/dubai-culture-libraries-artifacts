@@ -12,7 +12,7 @@ This project serves as an example implementation of [Dubai Culture's Public Libr
 - **Map View**: Interactive SVG map showing all library locations across Dubai
 - **Responsive Design**: Optimized for both desktop and mobile browsers (works as a web app on phones)
 - **Filter by Area**: Quick filtering to find libraries in specific neighborhoods
-- **Direct Integration**: Get directions via Google Maps and book spaces via UAE Pass
+- **Direct Integration**: Get directions via Google Maps and book spaces via Electronic Services
 - **TypeScript**: Fully typed for better developer experience
 
 ## 📚 Libraries Included
@@ -101,7 +101,7 @@ For questions about the libraries themselves:
 
 - [Dubai Culture Website](https://www.dubaiculture.gov.ae)
 - [Dubai Pulse Open Data Portal](https://www.dubaipulse.gov.ae)
-- [Dubai Public Libraries](https://www.dubaiculture.gov.ae/en/Our-Branches/Pages/Public-Libraries.aspx)
+- [Dubai Public Libraries](https://www.dubaiculture.gov.ae/en/attractions/libraries/)
 
 ---
 
